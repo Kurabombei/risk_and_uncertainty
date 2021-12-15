@@ -28,7 +28,7 @@ let total_result = {};
     console.log(`            |\t` + `За методом Кондорсе\t` + `За методом Борде|`);
     console.log(`____________ \t` + `___________________\t` + `________________/`);
     console.log(`Переможець  |\t` + total_result.cond.winner + `              \t\t` + total_result.bord.winner);
-    console.log(`Р. судження |\t` + total_result.cond.result + `    \t` + total_result.cond.result);
+    console.log(`Р. судження |\t` + total_result.cond.result + `    \t` + total_result.bord.result);
 
 
     function borda() {
