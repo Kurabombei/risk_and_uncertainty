@@ -54,7 +54,7 @@ let total_result = {};
         for(let row of storage.matrix) {
             multiplied_matrix.push(row.map((el) => el/4));
         }
-        console.log(multiplied_matrix);
+        // console.log(multiplied_matrix);
         let result = multiplied_matrix.reduce((column_sum, row) => {
             row.forEach((cur_element, index) => {
                 column_sum[index] = (column_sum[index]) + cur_element;
@@ -69,7 +69,7 @@ let total_result = {};
         for(let row of storage.matrix) {
             multiplied_matrix.push(row.map((el) => el/4));
         }
-        console.log(multiplied_matrix);
+        // console.log(multiplied_matrix);
         let row_index = 0;
         let result = multiplied_matrix.reduce((column_sum, row) => {
             row.forEach((cur_element, col_index) => {
